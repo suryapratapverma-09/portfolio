@@ -1,0 +1,57 @@
+{% extends "index.html" %}
+
+{% block title %}
+HOME | PAGE
+{% endblock title %}
+
+{% block style %}
+<link rel="stylesheet" href="../static/main_css/homestyle.css">
+{% endblock style %}
+
+{% block carousel %}
+<div class="container-fluid px-0">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../static/image/anete-lusina-zwsHjakE_iI-unsplash.jpg"  class="homeimage object-fit-cover" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../static/image/domenico-loia-hGV2TfOh0ns-unsplash.jpg"  class="homeimage object-fit-cover" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../static/image/joshua-aragon-BMnhuwFYr7w-unsplash.jpg"  class="homeimage object-fit-cover" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+{% endblock carousel %}
+
+{% block body %}
+
+<div class="px-4 py-5 my-5 text-center">
+        <img class="surya d-block mx-auto mb-4 object-fit-cover" src="../static/image/SURYA.jpg" alt="selt potrait" >
+        <h1 class="display-5 fw-bold text-body-emphasis">SURYA PRATAP VERMA</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Hi there! I'm surya pratap verma, a passionate full stack developer dedicated to design web-page. With a keen eye for detail and a knack for problem-solving, I thrive on transforming 
+          ideas into impactful solutions. Whether it's crafting elegant designs, writing efficient code, or leading collaborative projects, I'm committed to delivering excellence in everything I do. As a full stack developer, 
+          I bring 1 month of experience in web development and a proven track record of success. Welcome to my digital hub, where innovation meets creativity!</p>
+          <br/>
+          <h2>Tagline</h2>
+          <p class="tag">Empowering Vision with Precision</p>
+          <br/><hr/>
+          <h2>Call-To-Action</h2>
+          <p>Ready to embark on a journey of innovation? Explore my portfolio to witness the power of creative solutions in action. Let's collaborate and bring your ideas to life! Connect with me today to discuss your next project or 
+          opportunity.</p>
+          <br/>
+        </div>
+      </div>
+    
+{% endblock body %}

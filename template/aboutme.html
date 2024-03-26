@@ -1,0 +1,71 @@
+{% extends "index.html" %}
+
+{% block title %}
+ABOUT | PAGE
+{% endblock title %}
+
+{% block style %}
+<link rel="stylesheet" href="../static/main_css/about.css">
+{% endblock style %}
+
+{% block body %}
+<div class="detailed-bio container">
+  <h1 class="heading">BIO</h1>
+
+  <p class="intro">Greetings! I'm surya pratap verma, an enthusiastic professional deeply passionate about web devlopment. 
+    My journey in this dynamic realm commenced during my formative years, where I found myself drawn to full stack development. 
+    This early fascination blossomed into a lifelong pursuit of knowledge and excellence, leading me to pursue higher education in B. Tech C.S.E  at sikkim manipal institute of technology.
+  </p>
+
+  <p class="intro">
+    Armed with a solid educational foundation, I embarked on a professional journey marked by diverse experiences and enriching opportunities. 
+    Over the years, I've had the privilege of working across various roles and sectors, from frontend developer at SMIT to full stack developer at SMIT, where I've honed my skills and expertise in web development.
+  </p>
+
+  <p class="intro">
+    My career trajectory has been guided by a commitment to continuous learning and growth, fueling my passion for innovation and problem-solving. 
+    As I look ahead, my career goals center around sital sharma sir, where I aim to become full stack developer. 
+    I am driven by a desire to make meaningful contributions to SMIT, leveraging my skills and experiences to drive positive change and create impactful solutions.
+  </p>
+</div>
+
+<div class="container skills">
+  <h1 class="heading"> SKILLS </h1>
+  <div class="skillimage"><img src="../static/image/education certificate/skill-8805.png" alt="skill-image" class="skill-image"></div>
+  <ul>
+    <li>Proficient in python, c++, c, javascript language and web development</li>
+    <li>Expertise in flask, django and figma</li>
+    <li>Strong analytical and problem-solving abilities</li>
+    <li>Good communication and interpersonal skills</li>
+    <li>Project management and leadership capabilities</li>
+    <li>Certified in [Relevant Certifications or Training Programs]</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h1 class="heading">ACHIEVEMENTS</h1>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img src="../static/image/education certificate/074bce6e-762f-4b6b-857e-93a60ad1cdc7.jpeg"  class="aboutimage object-fit-fill" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../static/image/education certificate/eb836f8b-9020-483e-b442-b04e06d7d831.jpeg"  class="aboutimage object-fit-fill" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <div class="my-3">
+      <p>This comprehensive bio encapsulates my journey, skills, and aspirations, reflecting my dedication to personal and professional growth. 
+        As I continue to navigate the ever-evolving landscape of full stack developer, 
+        I am excited about the opportunities that lie ahead and the potential to make a meaningful difference.</p>
+    </div>
+  </div>
+</div>
+{% endblock body %}

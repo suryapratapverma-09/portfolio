@@ -1,0 +1,22 @@
+.homeimage{
+    width: 1600px;
+    height: 500px;
+}
+
+.navbar-link{
+    gap: 40px;
+}
+
+.surya{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.tag{
+    font-weight: bold;
+}
+
+.brand-logo{
+    height: 40px;
+}
